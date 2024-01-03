@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+#the_cow img {
+    width: 100%;
+
+}
+#the_cow h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: aquamarine;
+    border-bottom: 10px solid yellow;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
