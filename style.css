@@ -4,15 +4,44 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+/* hero section  */
+/* #the_cow {
+    padding: 20px;
+} */
 #the_cow img {
     width: 100%;
+    clip-path: polygon(36% 0, 100% 20%, 50% 100%, 0% 50%);
+    
 
 }
-#the_cow h1{
+#the_cow h1 ,#about_cow h1 {
     font-size: 40px;
     text-align: center;
     background-color: aquamarine;
     border-bottom: 10px solid yellow;
     word-spacing: 10px;
     letter-spacing: 10px;
+    padding: 25px;
+   
+}
+
+/* about cow section  */
+#about_cow{
+    /* background-color:aqua; */
+    background-image: linear-gradient(pink, rgb(119, 119, 223));
+}
+#about_cow h1{
+    margin-top: 30px;
+}
+#about_cow p{
+    border: 10px solid salmon;
+    padding: 20px;
+    margin: 50px auto;
+    font-size: 20px;
+    word-spacing: 15px;
+}
+#about_cow .milk{
+    background-color: blueviolet;
+   color: azure;
+   font-size: 40px;
 }
