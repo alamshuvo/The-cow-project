@@ -14,7 +14,7 @@
     
 
 }
-#the_cow h1 ,#about_cow h1 {
+#the_cow h1 ,#about_cow h1 ,#main-cow h1 {
     font-size: 40px;
     text-align: center;
     background-color: aquamarine;
@@ -44,4 +44,19 @@
     background-color: blueviolet;
    color: azure;
    font-size: 40px;
+}
+
+/* types of cow  */
+#types-cow{
+    min-width: 300px;
+    display: flex;
+    gap: 40px;
+}
+.cow img{
+    width: 100%;
+    margin-top: 40px;
+
+}
+#main-cow {
+    background-image: linear-gradient(pink, rgb(119, 119, 223));
 }
